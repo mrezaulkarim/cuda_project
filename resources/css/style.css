@@ -1,0 +1,726 @@
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+
+    body {
+    font-family: 'Titillium Web', sans-serif;
+	-webkit-transition: all 0.5s ease;
+	 transition: all 0.5s ease;
+	 text-rendering: optimizelegibility;
+	 scroll-behavior: smooth;
+   }
+   * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+   }
+     html {
+	  font-size: 90%;
+	  scroll-behavior: smooth;
+	  
+   }
+  
+   a {
+	  text-decoration: none;
+   }
+   h1 ,h2, h3, h4, h5, h6 {
+	  font-weight: normal;
+	  margin-top: 1rem;
+	  margin-bottom: 1rem,;
+   }
+    p {
+	  line-height:150%;
+	  margin-bottom: 2em;
+	  
+  }
+    fix {
+	  overflow: hidden;
+	  display: block;
+	  clear: both;
+	  height: 0;
+	  visibility: hidden;
+   }
+    ul li {
+	  list-style-type: none;
+   }
+  
+   .container-full {
+	  width: 100%;
+	  
+   }
+   .header-bg {
+	 background: linear-gradient(#87509cdf,#87509cdf) , url(./img/hero-bg.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center center;
+	 background-attachment: fixed;
+	 position: relative;
+	 height: 80vh;
+   }
+   .container {
+	  width: 77rem;
+	  display: block;
+	  margin: 0 auto;
+   }
+   .header1 .logo-left {
+	   margin-top: 1.3rem;
+	  float: left;
+	  padding:1rem;
+   }
+   .header1 nav {
+	  float: right;
+	  margin-top: 3rem;
+ 	  
+   }
+   .header1>nav .menu {
+	  list-style: none;
+  }
+   .header1>nav .menu li{
+	  float: left;
+	  margin-left: .8rem;
+	  }
+	 .header1>nav .menu li:first-child {
+		 margin-left: 0;
+	 }
+   .header1>nav .menu li a{
+	  display: inline-block;
+	  color: #fff;
+	  padding: .3rem 1rem ;
+	  text-transform: uppercase;
+	  text-decoration:none;
+	  text-align: center;
+	  border-radius: .3rem;
+	  
+   }
+   .header1>nav .menu li a:hover {
+	  background: #643a79;
+	  
+   }
+   .header1>nav .menu li.active a {
+	  background: #643a79;
+	  
+   }
+    
+   
+   .header1 .text-1 {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  text-align: center;
+	  color: #f7f3ea;
+	  
+   }
+  
+   .header1 .btn:link,
+   .header1 .btn:visited,
+   .header1 .btn {
+	  color: #fff;
+	  background: #333;
+	  border-bottom: .3rem solid #000;
+	  border-radius: .3rem;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  padding: 1rem 3rem;
+	  font-size: 1rem;
+	  display: inline-block;
+	  margin-top: 1rem;
+	  text-align: center;
+   }
+   .header1 .btn-box:link,
+   .header1 .btn-box:visited {
+	  background: #eb7d4b;
+	  border-color: #c86a40;
+   }
+  
+   /** End Header **/
+  
+   /** Start Services section **/
+   .services-bg {
+	  height: 95vh;
+	  display: inline-block;
+	  background: linear-gradient(#17c2a4ed,#17c2a4ed) , url(./img/services-bg.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center center;
+	  
+   }
+   .services-section {
+	  text-align: center;
+	  padding: 5rem 0;
+	  
+	  
+   }
+   .services-section h2 {
+	 font-size: 2rem;
+	 font-weight: 600;
+	 text-align: center;
+	 text-transform: uppercase;
+	 letter-spacing: .3rem;
+	 margin-bottom: 2rem;
+	 color: #fff;
+	  }
+   .services-section h2::after {
+	  content: "";
+	  display: block;
+	  height: .2rem;
+	  background: #14a58c;
+	  width: 4rem;
+	  margin: auto;
+	  margin-top: 1rem;
+    }
+    .services-section .paragraph {
+	  width: 60%;
+      margin-left: 20%;
+      font-size: 1rem;
+	  margin-top: -1rem;
+	  color: #fff;
+	  
+        
+   }
+   .span .logo {
+ 	 height: 6.5rem;
+	 margin-bottom: 2rem;
+     
+   }
+    .services-section .span h3 {
+	  font-size: 1.3rem;
+	  font-weight: 600;
+	  color: #fff;
+   }
+    .span .box {
+	  padding: 2%;
+	  
+   }
+    .services-section .span .box p {
+		width: 100%;
+	  margin-top: 1rem;
+	  color: #fff;
+   } 
+    /** End Services section **/
+  
+    /** Start Team section **/
+   .team-bg {
+	  display: inline-block;
+	  background: linear-gradient(#e7f1f8b5,#e7f1f8b5) , url(./img/team-bg.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: center center;
+	  background-attachment: fixed;
+    }
+	 .team-section {
+	  text-align: center;
+	  padding: rem 0;
+	  color: ;
+	 
+	 
+	  }
+    .team-section h2 {
+	 font-size: 2rem;
+	 font-weight: 700;
+	 text-align: center;
+	 text-transform: uppercase;
+	 letter-spacing: .3rem;
+	 margin: 6rem 0;
+	 color: #3c4761;
+	  }
+     .team-section h2::after {
+	  content: "";
+	  display: block;
+	  height: .2rem;
+	  background: #c8d9e5;
+	  width: 5rem;
+	  margin: auto;
+	  margin-top: 1rem;
+    }
+  
+      .team-section .paragraph {
+	     
+	   width: 60%;
+       margin-left: 20%;
+       font-size: 1rem;
+	   margin-top: -5rem;
+	   color: #3c4761;
+    }
+	
+	.span .team-member {
+ 	 height: 10.5rem;
+	 width: 10.5rem;
+	 border-radius: 50%;
+	 margin-bottom: .5rem;
+	 }
+	
+     .team-section h3 {
+	  font-size: 1.3rem;
+	  font-weight: 550;
+	  text-transform: uppercase;
+	  text-align: center;
+	  letter-spacing: .08rem;
+	  color: #343549;
+	  margin-bottom: .5rem;
+	  
+   }
+   
+     .span .box {
+	  padding: 2%;
+	  text-align: center;
+	  }
+	  
+      .span .role {
+	   color: #30bae7;
+	   
+
+   }
+    .team-section  p {
+	   width: 80%;
+	   color: #3c4761;
+	   margin-top: 2rem;
+	   margin-bottom: 1.5rem;
+	   margin-left: 1.5rem;
+   }
+	 .social-icon ul li {
+		display: inline-block;
+		margin: 0 .3rem;
+		margin-bottom: 4rem;
+		
+		
+	}
+	
+	.social-icon ul li a {
+		color: #fff;
+		
+	}
+	.social-icon ul li a:link i::before {
+		
+		display: inline-block;
+		background: #bdd1df;
+		width: 1rem;
+		height: 1rem;
+		font-size: 1rem;
+		border-radius: 50%;
+		padding: .5rem;
+		transition: .8s;
+		}
+		
+		.social-icon ul li a:hover i::before {
+			background: #393939;
+			transform: rotate(360deg);
+		}
+  
+		/** End Team section **/
+		
+		/** Start Skill section **/
+		.skill-bg {
+			display: inline-block;
+			color: #3c4761;
+			background: linear-gradient(#ffffffeb,#ffffffeb) , url(./img/skill-bg.jpg);
+			background-repeat: no-repeat;
+		    background-size: cover;
+			background-position: center top;
+			text-align: center;
+			
+		}
+		
+		.skill-section {
+		   
+		  padding: 5rem 0;
+		  }
+		
+		.skill-section h2 {
+			 font-size: 2rem;
+			 font-weight: 700;
+			 text-align: center;
+			 text-transform: uppercase;
+			 letter-spacing: .3rem;
+			 margin-top: 2rem;
+			 margin-bottom: 2rem;
+			 color: #3c4761;
+	    }
+        .skill-section h2::after {
+			  content: "";
+			  display: block;
+			  height: .2rem;
+			  background: #c8d9e5;
+			  width: 5rem;
+			  margin: auto;
+			  margin-top: 1rem;
+        }
+    	 .skill-section .paragraph {
+			  width: 40%;
+			  margin-left: 30%;
+			  font-size: 1rem;
+			  }
+		
+		svg.radial-progress {
+		  height: auto;
+		  max-width: 200px;
+		  padding: 1em;
+		  transform: rotate(-90deg);
+		  width: 100%;
+		}
+
+		svg.radial-progress circle {
+		  fill: rgba(0,0,0,0);
+		  stroke: #fff;
+		  stroke-dashoffset: 219.91148575129; 
+		  stroke-width: 10;
+		}
+
+		svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+		svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+		svg.radial-progress text {
+			fill: #fff;
+			text-anchor: middle;
+		}
+        .span1  h3 {
+			  font-size: 1.3rem;
+			  font-weight: 550;
+			  text-transform: uppercase;
+			  text-align: center;
+			  letter-spacing: .08rem;
+			  color: #27283d;
+			  margin-top: .5rem;
+			  margin-bottom: 4rem;
+			  ;
+		    }	
+		
+	svg.radial-progress circle {
+		stroke-width: 7;
+		}
+	
+	svg.radial-progress text {
+		fill: #3c4761;
+		font-size: 1.2rem;
+	}
+	svg.web-design circle {
+		stroke: #30bae7;
+	}
+	
+	svg.html-css circle {
+		stroke: #d74680;
+	}
+		
+    svg.graphic-design circle {
+		stroke: #15c7a8;
+	}
+	svg.ui-ux circle {
+		stroke: #eb7d4b;
+	}
+		/** End Skill section **/
+		
+		/** Start Portfolio section **/
+	.portfolio-bg {
+			display: inline-block;
+			background: linear-gradient(#ffdd99eb,#ffdd99eb) , url(./img/portfolio-bg.jpg);
+			background-repeat: no-repeat;
+		    background-size: cover;
+			background-position: center top;
+			text-align: center;
+		    background-attachment: fixed;
+    }
+	.portfolio-section {
+		padding: 5%;
+		text-align: center;
+		}
+	.portfolio-section h2 {
+			 font-size: 2rem;
+			 font-weight: 700;
+			 text-align: center;
+			 text-transform: uppercase;
+			 letter-spacing: .3rem;
+			 margin-top: 2rem;
+			 margin-bottom: 1rem;
+			 color: #3c4761;
+	    }
+        .portfolio-section h2::after {
+			  content: "";
+			  display: block;
+			  height: .2rem;
+			  background: #c8d9e5;
+			  width: 5rem;
+			  margin: auto;
+			  margin-top: 1rem;
+        }
+    	 .portfolio-section .paragraph {
+			  width: 50%;
+			  margin-left: 25%;
+			  font-size: 1rem;
+			  margin-bottom: 2rem;
+			  }
+		 
+		 
+	   .span .portfolio-fillter {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+	
+	.portfolio-fillter button {
+		background: #ebc985;
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		color: #3c4761;
+		padding: .4rem 1.5rem;
+		border: 0;
+		border-radius: .25rem;
+		margin: 0 .2rem;
+		transition: .5s;
+	}
+	
+	.portfolio-fillter button:hover {
+		background: #fff;
+		cursor: pointer;
+		box-shadow: inset 0 .2rem 0 ;
+	}
+    .span .btn {
+	  color: #fff;
+	  background: #17c2a4;
+	  border-bottom: .3rem solid #14a58c;
+	  border-radius: .3rem;
+	  text-decoration: none;
+	  text-transform: uppercase;
+	  padding: 1rem 3rem;
+	  font-size: 1rem;
+	  display: inline-block;
+	  margin-top: 3rem;
+	  margin-bottom: 3rem;
+	  text-align: center;
+	}
+	
+	.portfolio-img {
+		width: 110%;
+		height: 18rem;
+		margin-top: -2rem;
+	}
+	   .portfolio-section h4 {
+		font-size: 1rem;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin-bottom: -4rem;
+		}
+	
+	 .span .span_1_of_2 {
+		padding: 4.5%;
+		margin: 1rem 0;
+	}
+	 
+		/** End Portfolio section **/
+		
+	    /** Start Testimonial section **/
+		
+		.testimonial-bg{
+			display: inline-block;
+			background: linear-gradient(#d74680e0,#d74680e0) , url(./img/testimonial-bg.jpg);
+			background-repeat: no-repeat;
+		    background-size: cover;
+			background-position: center center;
+			
+			
+		}
+		
+		.testimonial-section h2 {
+			 font-size: 2rem;
+			 font-weight: 700;
+			 text-align: center;
+			 text-transform: uppercase;
+			 letter-spacing: .3rem;
+			 margin-top: 5.5rem;
+			 margin-bottom: 1rem;
+			 color: #ffffff;
+			 
+	    }
+        .testimonial-section h2::after {
+			  content: "";
+			  display: block;
+			  height: .2rem;
+			  background: #b73c6d;
+			  width: 5rem;
+			  margin: auto;
+			  margin-top: 1rem;
+        }
+		
+		.testimonial-section .paragraph {
+			  width: 50%;
+			  margin-left: 25%;
+			  font-size: 1rem;
+			  color: #fff;
+			  margin-bottom: 2rem;
+			  text-align: center;
+		}
+		
+
+		.span .client {
+			float: left;
+			height:	5rem;
+			width:  5rem;
+			border-radius: 50%;
+			margin-right: 2rem;
+		}
+		.span .client-review {
+			width: 80% ;
+			}
+		
+		.span .client-review q {
+			color: #fcf3f7;
+			line-height: 1.5rem;
+			
+			}
+		
+		.span .client-review h3 {
+			margin: 0 auto;
+			margin-left: 8rem;
+			margin-top: 1rem;
+			color: #fff;
+			text-transform: uppercase;
+			text-align: left;
+			
+		}
+		
+		.span .client-review .role {
+			
+			color: #ffdd99;
+			
+		}
+		/** End Testimonial section **/
+		
+		
+		/** Start Contract section **/
+	.contact-bg {
+		    display: inline-block;
+			background: linear-gradient(#3c5499e3,#3c5499e3) , url(./img/contact-bg.jpg);
+			background-repeat: no-repeat;
+		    background-size: cover;
+			background-position: center center;
+			text-align: center;
+			background-attachment: fixed;
+	}
+		
+		.contact-section h2 {
+			 font-size: 2rem;
+			 font-weight: 500;
+			 text-align: center;
+			 text-transform: uppercase;
+			 letter-spacing: .3rem;
+			 margin-top: 5.5rem;
+			 margin-bottom: 1rem;
+			 color: #ffffff;
+			 
+	    }
+        .contact-section h2::after {
+			  content: "";
+			  display: block;
+			  height: .2rem;
+			  background: #273a71;
+			  width: 5rem;
+			  margin: auto;
+			  margin-top: 1rem;
+        }
+		
+		.contact-section .paragraph {
+			  font-size: 1rem;
+			  color: #fff;
+			  margin-bottom: -3rem;
+			  text-align: center;
+		}
+		
+		.contact-section form {
+			margin-top: 3rem;
+			width: 74%;
+			margin-left: 13%;
+		}
+		
+		.contact-section input[type="text"],
+		.contact-section input[type="email"],
+		.contact-section textarea {
+			
+		    background: #273a71;
+			border: .1rem solid #273a71;
+			width: 100%;
+			padding: 1rem;
+			border-radius: .3rem;
+			font-size: 1rem;
+			color: #fff;
+			margin: .5rem 0;
+			
+		}
+		
+		.contact-section form::placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+		
+		.contact-section textarea {
+			margin-top: -2rem;
+			height: 15rem;
+			width: 51rem;
+			margin-right: 0.7rem;
+			
+		}
+		
+		
+		 .span .btn-submit {
+			border: 0;
+			border-bottom: .3rem solid #299ec5;
+			background: #30bae7;
+			margin-bottom: 6rem;
+			padding: 1rem 4rem;
+			}
+		
+		.btn-submit:hover {
+			cursor: pointer;
+		}
+		
+		
+		
+		
+		
+		/** End Contract section **/
+
+		
+		/** Start Footer Section **/
+		
+		
+		
+		/** End Footer Section **/
+		
+		
+		.footer-section  {
+			background: #344b8e;
+			border-top: .2rem solid #3c5499;
+			text-align: center;
+			padding: 1.8rem 0;
+			}
+		
+		.footer-section li {
+			display: inline-block;
+			margin: 0 2rem;
+		}
+		
+		.footer-section li a {
+			color: #fff;
+			text-decoration: none;
+			text-transform: capitalize;
+			font-size: 1.2rem;
+		}
+		
+		.footer-section li:hover a {
+			color: #30bae7;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+        /** End Testimonial section **/
+		

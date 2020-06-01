@@ -1,0 +1,330 @@
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+@media only screen and (max-width: 1024px) {
+	
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+	
+	
+.header-bg {
+	background: linear-gradient(#87509cdf,#87509cdf) , url(./img/hero-bg.jpg);
+	 background-repeat: no-repeat;
+	 background-position:  top;
+	 background-attachment: fixed;
+	height: 50vh;
+	
+}
+.container {
+	  width: 49rem;
+	  
+   }
+  .header1 .logo-left {
+	  margin-left: -1rem;
+	  margin-right: rem;
+	  margin-top: 2rem;
+	  float: left;
+	  width: 1rem; 
+	  padding: 0;
+	  
+   }
+
+  .header1 nav {
+	  float: right;
+	  margin-top:  3rem;
+	  
+ 	  width: 82%;
+   }
+
+.header1>nav .menu li{
+	  float: left;
+	  margin: 0 auto;
+	  margin-left: .7rem;
+	  padding: 0;
+	 
+	 }
+.header1>nav .menu li a{
+	  display: inline-block;
+	  color: #fff;
+	  padding: rem rem ;
+	  font-size: .8rem;
+	  text-transform: uppercase;
+	  text-decoration:none;
+	  text-align: center;
+	  border-radius: .3rem;
+	  
+   }
+
+.header1 .text-1 {
+	font-size: .8rem;
+	width: 70%;
+	margin-top: 5rem;
+}
+/** Start Services section **/
+
+.services-bg {
+	  height: 55vh;
+      background-position: center top;
+	  }
+	  
+   .services-section h2 {
+	 font-size: 1.8rem;
+   }
+	  .services-section .paragraph {
+	  width: 70%;
+      margin-left: 15%;
+	  font-size: .9rem;
+	  }
+	  .span .logo {
+ 	 height: 4.5rem;
+	 margin-bottom: 2rem;
+     
+   }
+   .services-section .span h3 {
+	  font-size: 1.1rem;
+   }
+   .span .box {
+	  padding: 2%;
+	  
+   }
+   .services-section .span .box p {
+	   width: `100%;
+   }
+	   
+	   /** Start Team section **/
+	   .team-bg {
+	  
+	  background-size: cover;
+	  background-position: center center;
+	   
+	   }
+	   .team-section h2 {
+		  font-size: 1.8rem;
+	   }
+	   
+	  .team-section .paragraph {
+	   width: 70%;
+       margin-left: 15%;
+	   font-size: .9rem;
+	  }
+	  .span .team-member {
+ 	 height: 7rem;
+	 width: 7rem;
+	 border-radius: 50%;
+	 margin-bottom: .5rem;
+	 }
+    .team-section h3 {
+	  font-size: 1.1rem;
+	}
+     .team-section .box p {
+		 width: 110%;
+		 height: 10rem;
+		 margin-left: -.5rem;
+		 
+	 }
+
+	  .social-icon ul li {
+		display: inline-block;
+		margin: 0 .1rem;
+		margin-bottom: 3rem;
+		}
+		
+		.social-icon ul li a:link i::before {
+		width: .8rem;
+		height: .8rem;
+		font-size: .8rem;
+		border-radius: 50%;
+		padding: .4rem;
+		}
+		
+		/** Start Skill section **/
+		
+		
+		.skill-section h2 {
+			 font-size: 1.8rem;
+		}
+		
+		.skill-section .paragraph {
+			  width: 60%;
+			  margin-left: 20%;
+			  font-size: .9rem;
+			  }
+		 .span1  h3 {
+			  font-size: 1.1rem;
+		 }
+		 
+		 svg.radial-progress circle {
+			stroke-width: 5;
+		}
+		svg.radial-progress text {
+			font-size: 1rem;
+		}
+		
+		/** Start Portfolio section **/
+		
+		.portfolio-bg {
+		}
+		
+		.portfolio-section h2 {
+			 font-size: 1.8rem;
+		}
+		.portfolio-section .paragraph {
+			  width: 70%;
+			  margin-left: 15%;
+			  font-size: .9rem;
+		}
+	   .portfolio-fillter button {
+		font-size: 1rem;
+		padding: .3rem 1.2rem;
+		
+	   }
+	   .portfolio-img {
+		width: 90%;
+		height: 13rem;
+		margin-top: 0;
+	}
+	.portfolio-section h4 {
+		font-size: .9rem;
+		margin-bottom: .1rem;
+	}
+	.span .btn {
+	  border-bottom: .3rem solid #14a58c;
+	  border-radius: .3rem;
+	  padding: .8rem 2rem;
+	  font-size: .8rem;
+	  }
+	  /** Start Testimonial section **/
+	  
+	  .testimonial-section h2 {
+			 font-size: 1.8rem;
+	  }
+	  .testimonial-section .paragraph {
+		  font-size: .9rem;
+	  }
+	  .span .client {
+			float: none;
+			height:	5rem;
+			width:  5rem;
+			border-radius: 50%;
+			margin-left: 1rem;
+		}
+		.span .client-review {
+			width: 90%;
+			text-align: center;
+			margin-left: 1rem;
+			}
+			
+			.span .client-review h3 {
+				
+				margin-left: 6.5rem;
+			}
+			
+			/** Start Contract section **/
+			
+			.contact-section h2 {
+			 font-size: 1.8rem;
+			}
+			.contact-section .paragraph {
+			  font-size: .9rem;
+			}
+			
+			.contact-section form {
+			margin-top: 3rem;
+			width: 82%;
+			margin-left: 9%;
+		}
+		.contact-section input[type="text"],
+		.contact-section input[type="email"],
+		.contact-section textarea {
+			width: 100%;
+			padding: .8rem;
+			font-size: .9rem;
+			}
+		.contact-section textarea {
+			
+			height: 10rem;
+			width: 36rem;
+		 }
+		 
+		 /** Start Footer Section **/
+		 .footer-section li {
+			
+			margin: 0 1rem;
+		}
+		 .footer-section li a {
+			 font-size: 1rem;
+		 }
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
